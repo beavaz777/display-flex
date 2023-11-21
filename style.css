@@ -2,6 +2,56 @@ section {
     border: 2px solid red;
 }
 
-.yutakameno img {
- width: 20rem;
+.nal {
+    display: flex;
+    align-items: center;  /* Alinhamento do eixo transversal*/
+    justify-content: center; /* Alinhamento do principal*/
+    gap: 4rem; /* espaçamento entre os elementos do display flex*/
+
+    margin-bottom: 1rem;
 }
+
+.nal img {
+    width: 20rem;
+}
+
+.nal p {
+    width: 30rem;
+    text-align: center;
+}
+
+.yu {
+display: flex;
+align-items: center;
+flex-direction: row-reverse; /*alterar a direção do eixo principal*/
+justify-content: center;
+gap: 4rem;
+
+margin-bottom: 1rem;
+}
+
+.yu img {
+    width: 20rem;
+}
+
+.yu p {
+    width: 30rem;
+    text-align: center;
+}
+
+.formulario {
+padding: 1rem;
+
+display: flex;
+justify-content: center;
+}
+
+.formulario div {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario form {
+    width: 30rem;
+}
+
